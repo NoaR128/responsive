@@ -1,0 +1,176 @@
+
+@font-face {
+    font-family: Gilroy;
+    src: url(./fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family: Antic;
+    src: url(./fonts/Antic-Regular.ttf);
+}
+
+body{
+   background-color: #f4f4f4;
+   margin:0;
+}
+
+
+.header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Gilroy;
+    font-size: 18;
+}
+
+.menu_out_left{
+    display: flex;
+    border: 1px solid black;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    line-height: 40px;
+    background-color: black;
+    border-right: 0;
+}
+.menu_in_left{
+    background-color: #F5FF7D;
+    padding-left: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.menu_top{
+    display: flex;
+}
+.menu_out_middle{
+    display: flex;
+    border: 1px solid black;
+    line-height: 40px;
+    background-color: black;
+    border-left: 0;
+    border-right: 0;
+}
+.menu_in_middle{
+    background-color:white;
+}
+.menu_out_right{
+    display: flex;
+    border: 1px solid black;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    line-height: 40px;
+    background-color: black;
+    border-left: 0;
+}
+.menu_in_right{
+    background-color: white;
+    padding-right: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.top_area_title{
+    font-family: Antic;
+    font-size: 96px;
+    color:black;
+    text-shadow: 3px 5px #00002126;
+    width: 80%;
+    margin-left: 50px;
+}
+.top_area{
+    position: relative;
+    height: 545px;
+}
+
+.top_area_img{
+   position: absolute; 
+    top:0px;
+    right:50px;
+}
+
+.register_btn{
+    background-color: #F5FF7D;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    width: 150px;
+    font-family: Gilroy;
+    font-size: 22;
+    margin-left: 50px;
+    background-image: url(./image/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 95% 12px;
+}
+
+.product_cont_in{   
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.center_white{
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+.text_black{
+    font-family: Antic;
+    font-size: 40px;
+    color:white;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.product_cont_yellow{
+    background-color: #F5FF7D;
+    height: 835px;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 50px;
+    margin-top: 39px;
+}
+.yellow_cont_title{
+    font-family: Antic;
+    font-size: 96px;
+    color:black;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+.yellow_cont_text{
+    font-family: Gilroy;
+    font-size: 19;
+}
+
+.yellow_cont{    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-top: 71px;
+}
+.dots_img_cont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.yellow_cont_box{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.product_cont_yellow_in{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 80px;
+}
+.product_cont_yellow_in_box{
+    border-left: 1px solid black;
+    width: 33%;
+    text-align: center;
+}
+.product_cont_yellow_in_box_num{
+    font-size: 52px;
+    font-family: Gilroy;
+}
+.product_cont_yellow_in_box_text{
+    font-size: 19px;
+    font-family: Gilroy;
+}
